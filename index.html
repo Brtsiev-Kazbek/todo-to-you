@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>ToDo by Kazbek&#128293;</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main id="app">
+            <header>
+                <h1>ToDo by <em>&lt;Brtsiev Kazbek&gt;</em></h1>
+            </header>
+
+            <ul id="todo-list">
+                <li class="todo-item">
+                    <input class="checkbox" type="checkbox">
+                    <label class="title"><i>Добро пожаловать в</i> <strong><i>ToDo</i></strong><i>!</i></label>
+                    <input class="textfield" autocomplete="off" type="text">
+                    <button class="edit">Изменить</button>
+                    <button class="delete">Удалить</button>
+                </li>
+            </ul>
+
+            <form id="todo-form">
+                <input id="add-input" type="text" placeholder="Введите задачу">
+                <button id="add-button" type="submit">Добавить</button>
+            </form>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>
